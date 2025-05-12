@@ -1,0 +1,121 @@
+
+  @media screen and (max-width:426px)
+  {
+    .header{
+      background-color: rgb(254, 254, 254);
+      width:100%;
+      /* flex-direction: column ; */
+      position: fixed;
+      z-index: 1;
+
+    }
+    .nav{
+      /* display: none; */
+    }
+    .navigation p{
+      margin-left: 30px;
+    }
+    #bar{
+      display: flex;
+      margin: -25px 0px 0px 350px;
+    }
+    #s1im_div{
+      display: none;
+    }
+    .selfdiv h1{
+      font-size: 17px;
+      margin-left: -38px;
+      line-height: 40px;
+      width: 300px;
+    }
+    .s1h2{
+      margin-left: 35px;
+      margin-top: 50px;
+    }
+
+    .ico{
+      margin-left: 30px;
+      display: block;
+    }
+    
+    /* section2 */
+    #about_content{
+      width: 300px;
+      text-align: centre;
+      margin-left: 70px;
+      margin-top: -60px;
+    }
+    #about_div{
+      flex-direction: column;
+      height: 65vh;
+    }
+    #about_img{
+      margin-left: 80px;
+    }
+    
+    #section2{
+      height: 200vh;
+      /* background-color: chartreuse; */
+    }
+    /* section3 */
+    #section3{
+      height: 220vh;
+    }
+    #card{
+      display: inline-block;
+     
+      /* grid-template-columns: repeat(2,80px); */
+      margin-left: 40px;
+    }
+    #about_head3{
+      margin-top: -40px;
+    }
+    #card_size{
+      margin-top: 40px;;
+    }
+    /* section4 */
+    #section4{
+      height: 100vh;
+    }
+    #projects_div{
+      /* background-color: aqua; */
+    }
+    #about_head4{
+      margin-top: 90px;
+    }
+    #project_div1{
+      width: 250px;
+      margin-left: 90px;
+    }
+    #parp{
+      width: 280px;
+      font-size: 10px;
+      margin-left: 90px;
+    }
+    /* section5 */
+
+    .Container{
+      width: 300px;
+      background-color:rgba(190, 188, 188, 0.343);
+      text-align: center;
+      border:3px solid rgba(190, 188, 188, 0.343);
+      border-radius: 15px;
+      box-shadow: 0px 0px 15px rgba(234, 231, 231, 0.552) ;
+      backdrop-filter:blur(25px);
+      padding: 20px;
+      margin-left :70px;
+    }
+    #h2{
+      width: 108px;
+      margin-left: 72px;
+    }
+    .box{
+      width: 180px;
+    }
+    .upp{
+      margin-left: 380px;
+    }
+    #section5{
+      height: 100vh;
+    }
+  }

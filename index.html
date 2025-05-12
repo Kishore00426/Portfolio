@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./responsive.css">
+  <link rel="icon" type="image/x-icon" href="./img/bag.jpg.png">
+  <!-- <script src="./port_folio.js"></script> -->
+  <!-- cdn for  iconsfontwasome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- cdn for emailjs -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+  <!-- cdnfor jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- cdn for bootstrap -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script> -->
+  <!-- cdn and css for aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  
+   <header class="header" id="top">
+    <nav class="navigation" >
+      <p>PORTFOLIO </p>
+      <div class="nav">
+        <a href="#section1">HOME</a>
+        <a href="#section2">ABOUT</a>
+        <a href="#section3">SKILLS</a>
+        <a href="#section4">PROJECTS</a>
+        <a href="#section5">CONTACT</a>
+      </div>
+      <div><i class="fa-solid fa-bars" id="bar" onclick="bar"></i></div>
+    </nav>
+  </header> 
+
+  <section class="section1" id="section1">
+    
+    <div class="home_div" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="400">
+      <div class="selfdiv">
+        <h1>Hi, Welcome to my portfolio!!</h1>
+        <h1>I'm Kishore MERN stack developer</h1>
+        
+      </div>
+      <div id="s1im_div">
+      <img src="./img/nobgprof.png" class="image_profile1" alt="">
+      </div>
+      
+    </div>
+    <button class="s1h2">
+      <h2><a href="./Kishore_Resume (1).pdf">Get resume</a></h2>
+    </button>
+    <div class="ico">
+      <a href="https://www.linkedin.com/in/kishore-kumar-p-10726b184/"><i class="fa-brands fa-linkedin-in di"></i></a>
+      <a href=""><i class="fa-brands fa-github di"></i></a>
+      <a href="https://mail.google.com/mail/u/0/#inbox/FMfcgzQZTCnHLknSFQdFQkHWhhLcJChW"><i
+          class="fa-solid fa-envelope di"></i></a>
+
+  </section>
+  <!-- section2  -->
+  <section id="section2" >
+    <div >
+      <h1 id="about_head" >
+        ABOUT
+      </h1> 
+    </div>
+    <div id="about_div">
+      <div>
+        <img src="./img/kishore_profile.png" alt="" id="about_img" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="200">
+      </div>
+      <div id="about_content" data-aos="fade-up"       data-aos-easing="linear" data-aos-duration="300">
+        <h1>I'm Kishore</h1>
+        <br>
+        <p>
+          Hi, I'm <span style="color:rgb(137, 143, 129);">KISHORE</span> A passionate Full Stack Web Developer with expertise in building scalable, high-performance web applications. With a deep understanding of both frontend and backend technologies, I specialize in crafting seamless digital experiences that are fast, user-friendly, and efficient.My journey into web development started with a curiosity for how websites work, which soon turned into a full-fledged passion for coding.
+        </p>
+      </div>
+    </div>
+  </section>
+ <!-- section3 skills and certifications -->
+  <section id="section3" >
+    <h1 id="about_head3"data-aos="fade-up">SKILLS</h1>
+    <div id="card">
+      <div id="card_size" data-aos="zoom-in-up">
+        <img src="./img/html.png" alt="" id="card_img">
+      </div>
+      <div id="card_size" data-aos="zoom-in-up">
+        <img src="./img/css.png" alt="" id="card_img">
+      </div>
+      <div id="card_size" data-aos="zoom-in-up">
+        <img src="./img/js.png" alt="" id="card_img">
+      </div>
+      <div id="card_size" data-aos="zoom-in-up">
+        <img src="./img/jq.png" alt="" id="card_img">
+      </div>
+      <div id="card_size" data-aos="zoom-in-up">
+        <img src="./img/bootstrap.png" alt="" id="card_img">
+      </div>
+    </div>
+    <!-- div for 2ndrow -->
+    <div id="card">
+      <div id="card_size" data-aos="zoom-in-down">
+        <img src="./img/mongodb.png" alt="" id="card_img">
+      </div>
+      <div id="card_size" data-aos="zoom-in-down">
+        <img src="./img/node.png" alt="" id="card_img">
+      </div>
+      <div id="card_size" data-aos="zoom-in-down">
+        <img src="./img/express.png" alt="" id="card_img">
+      </div>
+      <div id="card_size" data-aos="zoom-in-down">
+        <img src="./img/react.png" alt="" id="card_img">
+      </div>
+      <div id="card_size" data-aos="zoom-in-down">
+        <img src="./img/angular.png" alt="" id="card_img">
+      </div>
+    </div>
+  </section>
+   <!-- section4 projects-->
+   <section id="section4" >
+    <h1 id="about_head4"data-aos="fade-up">PROJECTS</h1>
+    <div id="projects_div">
+      <div id="project_div1">
+        <h3 id="project_h">Transport website replication</h3>
+        <img
+          src="img/transport project.png"
+          alt="" id="image_p">
+         
+      </div>
+      <p  data-aos="zoom-in-up" id="parp">I Have done the replica of the transapp website whose primaery cause is to provide the services opf trans portation acreoos INDIA.The components I used are :HTML,CSS,JAVASCRIPT AND JQUERY for created login-in and registration page and store their data in the mongodb</p>
+    </div>
+  </section>
+ <!-- section5 contact -->
+ <section id="section5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
+  <div class="Container">
+    <form action="/webpage" method="post">
+      <h2 id="h2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">Contact</h2>
+      <br>
+      <hr>
+      <br>
+      <input type="text" name="" placeholder="NAME" class="box" required data-aos="fade-down"
+        data-aos-easing="linear" data-aos-duration="500">
+      <input type="email" name="password" placeholder="Email_id" class="box" required data-aos="fade-down"
+        data-aos-easing="linear" data-aos-duration="400">
+      <input type="text" placeholder="Type your message here" class="box" required data-aos="fade-down"
+        data-aos-easing="linear" data-aos-duration="300">
+      <br><br>
+      <button>submit</button>
+    </form>
+  </div>
+  <div class="upp">
+    <a href="#section1">
+      <i class="fa-solid fa-chevron-up iup" id="#topBtn"></i>
+    </a>
+  </div>
+</section>
+<footer id="footer">
+  <div id="footerdiv1">
+    <p id="contact">
+      KISHORE
+    </p>
+    <div id="footerdiv2">
+      <a href="https://www.linkedin.com/in/kishore-kumar-p-10726b184/"><i class="fa-brands fa-linkedin-in ic"></i></a>
+      <a href=""><i class="fa-brands fa-github ic"></i></a>
+      <a href="https://mail.google.com/mail/u/0/#inbox/FMfcgzQZTCnHLknSFQdFQkHWhhLcJChW"><i
+          class="fa-solid fa-envelope ic"></i></a>
+    </div>
+    <p id="copy">
+      All rights reserved @copyright Kishore
+    </p>
+  </div>
+</footer>
+</body>
+<script>
+  AOS.init();
+</script>
+<script>
+  // contact script
+  (function () {
+    emailjs.init("yGIfQiDjief01OTbv"); // Replace with your actual Public Key
+  })();
+
+  // Send Email Function
+  document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    // Collect form data
+    const formData = {
+      from_name: document.getElementById("name").value,
+      from_email: document.getElementById("email").value,
+      message: document.getElementById("message").value,
+    };
+
+    console.log("Sending data:", formData);
+
+    // Replace 'service_xxxxx' and 'template_xxxxx' with actual values
+    emailjs.send("service_x1akasg", "template_ilwiwwk", formData)
+      .then((response) => {
+        console.log("Email sent successfully!", response);
+        alert("Email sent successfully!");
+      })
+      .catch((error) => {
+        console.error("Email send error:", error);
+        alert("Failed to send email.");
+      });
+  });
+  
+  function bar(){
+    document.querySelector(".nav").style.display="block"
+  }
+
+
+</script>
+
+</html>
